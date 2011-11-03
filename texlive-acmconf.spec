@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/acmconf
+# catalog-date 2008-05-14 19:23:34 +0200
+# catalog-license lppl
+# catalog-version 1.3
 Name:		texlive-acmconf
 Version:	1.3
 Release:	1
@@ -56,6 +62,7 @@ class is based on the ACM's own specification.
 %doc %{_texmfdistdir}/source/latex/acmconf/Makefile
 %doc %{_texmfdistdir}/source/latex/acmconf/acmconf.dtx
 %doc %{_texmfdistdir}/source/latex/acmconf/acmconf.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -66,3 +73,5 @@ class is based on the ACM's own specification.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
