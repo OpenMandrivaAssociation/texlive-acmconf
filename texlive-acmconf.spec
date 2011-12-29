@@ -33,7 +33,6 @@ class is based on the ACM's own specification.
 	%{_sbindir}/texlive.post
     fi
 
-
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/acmconf/acmconf.cls
