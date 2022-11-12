@@ -5,9 +5,9 @@ Summary:	Class for ACM conference proceedings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acmconf
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acmconf.r15878.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acmconf.doc.r15878.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acmconf.source.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acmconf.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acmconf.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acmconf.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
