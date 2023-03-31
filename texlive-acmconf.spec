@@ -1,6 +1,6 @@
 Name:		texlive-acmconf
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Class for ACM conference proceedings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acmconf
